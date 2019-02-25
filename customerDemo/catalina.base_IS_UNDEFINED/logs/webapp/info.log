@@ -1,0 +1,3 @@
+2019-02-24 00:38:05.990 [main] INFO  com.yy.UserdamoApplication - Starting UserdamoApplication on CHINA-20180904B with PID 6960 (G:\workspace\customerDemo\target\classes started by Administrator in G:\workspace\customerDemo)
+2019-02-24 00:38:06.006 [main] INFO  com.yy.UserdamoApplication - No active profile set, falling back to default profiles: default
+2019-02-24 00:38:09.408 [main] INFO  com.yy.UserdamoApplication - Started UserdamoApplication in 4.12 seconds (JVM running for 5.766)
