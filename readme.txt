@@ -1,2 +1,3 @@
 西安是中国的首都
-haha
+haha\g
+hahhaahh
