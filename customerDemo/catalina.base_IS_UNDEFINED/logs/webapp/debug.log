@@ -1,1 +1,134 @@
 2019-02-24 00:38:06.006 [main] DEBUG com.yy.UserdamoApplication - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-02-24 00:46:48.142 [main] DEBUG com.yy.UserdamoApplication - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019-02-24 00:47:06.067 [http-nio-8080-exec-2] DEBUG com.yy.dao.UserDao.login - ==>  Preparing: select * from user where username=? 
+2019-02-24 00:47:06.093 [http-nio-8080-exec-2] DEBUG com.yy.dao.UserDao.login - ==> Parameters: admin(String)
+2019-02-24 00:47:06.116 [http-nio-8080-exec-2] DEBUG com.yy.dao.UserDao.login - <==      Total: 1
+2019-02-24 00:47:11.798 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:11.798 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:11.804 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:11.806 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 00:47:11.806 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 00:47:11.809 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:18.409 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:18.411 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:18.420 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:18.423 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:18.428 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer), 5(Integer)
+2019-02-24 00:47:18.435 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:20.368 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:20.369 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:20.374 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:20.376 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:20.377 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 10(Integer), 5(Integer)
+2019-02-24 00:47:20.385 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:21.262 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:21.262 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:21.268 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:21.269 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:21.270 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 15(Integer), 5(Integer)
+2019-02-24 00:47:21.277 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:22.109 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:22.110 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:22.119 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:22.120 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:22.122 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 20(Integer), 5(Integer)
+2019-02-24 00:47:22.126 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:22.853 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:22.853 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:22.856 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:22.857 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:22.858 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 25(Integer), 5(Integer)
+2019-02-24 00:47:22.865 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 1
+2019-02-24 00:47:24.843 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:24.846 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:24.850 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:24.853 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:24.854 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 20(Integer), 5(Integer)
+2019-02-24 00:47:24.859 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:47:26.760 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:47:26.762 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:47:26.784 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:47:26.787 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:47:26.788 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 25(Integer), 5(Integer)
+2019-02-24 00:47:26.791 [http-nio-8080-exec-3] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 1
+2019-02-24 00:48:22.564 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryById - ==>  Preparing: select * from customer WHERE c_id=? 
+2019-02-24 00:48:22.565 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryById - ==> Parameters: 46(Integer)
+2019-02-24 00:48:22.567 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryById - <==      Total: 1
+2019-02-24 00:49:07.579 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:49:07.579 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:49:07.582 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:49:07.583 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 00:49:07.583 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 00:49:07.585 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:49:13.315 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:49:13.315 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:49:13.319 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:49:13.320 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 00:49:13.320 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 00:49:13.322 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:49:23.632 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:49:23.641 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:49:23.645 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:49:23.646 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:49:23.648 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 15(Integer), 5(Integer)
+2019-02-24 00:49:23.657 [http-nio-8080-exec-2] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:49:53.351 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:49:53.351 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:49:53.364 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:49:53.365 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:49:53.366 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 20(Integer), 5(Integer)
+2019-02-24 00:49:53.368 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:50:04.532 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:50:04.532 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:50:04.544 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:50:04.545 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 00:50:04.546 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 00:50:04.550 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:50:24.685 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:50:24.685 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:50:24.686 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:50:24.687 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:50:24.688 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer), 5(Integer)
+2019-02-24 00:50:24.690 [http-nio-8080-exec-6] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:50:29.123 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:50:29.124 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:50:29.127 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:50:29.128 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 00:50:29.128 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 25(Integer), 5(Integer)
+2019-02-24 00:50:29.132 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 1
+2019-02-24 00:50:33.744 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 00:50:33.744 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 00:50:33.748 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 00:50:33.749 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 00:50:33.749 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 00:50:33.751 [http-nio-8080-exec-8] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 00:50:57.889 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==>  Preparing: select * from customer where c_name like '%涂陌%'; 
+2019-02-24 00:50:57.889 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==> Parameters: 
+2019-02-24 00:50:57.892 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.queryCustomer - <==      Total: 1
+2019-02-24 11:54:56.485 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 11:54:56.486 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 11:54:56.491 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 11:54:56.492 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ?, ? 
+2019-02-24 11:54:56.493 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer), 5(Integer)
+2019-02-24 11:54:56.497 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 11:55:12.417 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.addCustomer - ==>  Preparing: insert into customer (c_name,c_telephone,c_address,c_remark) values ( ?,?,?,? ) 
+2019-02-24 11:55:12.418 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.addCustomer - ==> Parameters: 00(String), 00(String), 00(String), 00(String)
+2019-02-24 11:55:12.432 [http-nio-8080-exec-4] DEBUG com.yy.dao.CustomerDao.addCustomer - <==    Updates: 1
+2019-02-24 11:55:15.904 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==>  Preparing: SELECT count(0) FROM customer 
+2019-02-24 11:55:15.905 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - ==> Parameters: 
+2019-02-24 11:55:15.907 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList_COUNT - <==      Total: 1
+2019-02-24 11:55:15.908 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==>  Preparing: select * from customer LIMIT ? 
+2019-02-24 11:55:15.908 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - ==> Parameters: 5(Integer)
+2019-02-24 11:55:15.909 [http-nio-8080-exec-5] DEBUG com.yy.dao.CustomerDao.queryCustomerList - <==      Total: 5
+2019-02-24 11:55:21.913 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==>  Preparing: select * from customer where c_name like '%00%'; 
+2019-02-24 11:55:21.914 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==> Parameters: 
+2019-02-24 11:55:21.915 [http-nio-8080-exec-7] DEBUG com.yy.dao.CustomerDao.queryCustomer - <==      Total: 1
+2019-02-24 11:55:31.678 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.delCustomer - ==>  Preparing: delete from customer where c_id = ? 
+2019-02-24 11:55:31.682 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.delCustomer - ==> Parameters: 47(Integer)
+2019-02-24 11:55:31.689 [http-nio-8080-exec-10] DEBUG com.yy.dao.CustomerDao.delCustomer - <==    Updates: 1
+2019-02-24 11:55:53.345 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.delCustomer - ==>  Preparing: delete from customer where c_id = ? 
+2019-02-24 11:55:53.345 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.delCustomer - ==> Parameters: 47(Integer)
+2019-02-24 11:55:53.348 [http-nio-8080-exec-9] DEBUG com.yy.dao.CustomerDao.delCustomer - <==    Updates: 0
+2019-02-24 11:56:00.176 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==>  Preparing: select * from customer where c_name like '%00%'; 
+2019-02-24 11:56:00.176 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomer - ==> Parameters: 
+2019-02-24 11:56:00.178 [http-nio-8080-exec-1] DEBUG com.yy.dao.CustomerDao.queryCustomer - <==      Total: 0
